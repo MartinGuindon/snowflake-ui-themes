@@ -1,7 +1,7 @@
 /*
 
-Adapted for Snowflake to be used in conjunction with Stylebot by Martin Guindon and Prathamesh Nimkar.
-Using Martin's code from snowflake.css as a base, I've created this BnW theme.
+Adapted for Snowflake to be used in conjunction with Stylebot by Prathamesh Nimkar.
+Using Martin Guindon's code from snowflake_solarized_theme.css as a base, Prathamesh has created this warm theme.
 
 */
 
@@ -10,8 +10,8 @@ div.CodeMirror-lines {
     line-height: 1.45em;
     color-profile: sRGB;
     rendering-intent: auto;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: #F5F4F4;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -19,8 +19,8 @@ div.CodeMirror-gutter.CodeMirror-linenumbers {
     line-height: 1.45em;
     color-profile: sRGB;
     rendering-intent: auto;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: #000000;
+    background-color: #9B8F70;
     font-size: 12px;
 }
 
@@ -28,111 +28,76 @@ div.CodeMirror-scroll {
     line-height: 1.45em;
     color-profile: sRGB;
     rendering-intent: auto;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: #F5F4F4;
+    background-color: #424438;
     font-size: 12px;
 }
+
+div.styles__sql-worksheet-context-setting-context-info___j7Af_ {
+    background-color: #424438;
+  }
+
+  div.style__tab___2yjU4.style__tab--active___3HnNE {
+    color: #F5F4F4;
+    background-color: #424438;
+  }
+
+span.styles__sql-worksheet-context-setting-context-label-min___3rf4F {
+  color: #F5F4F4;
+}
+
+form.styles__form___2zJyY {
+  background-color: #424438;
+}
+
+div.react-selectize-search-field-and-selected-values {
+  background-color: #424438;
+}
+
+div.menu-item_14igu14.menu-item-iconized_1qcm029 {
+    background-color: #424438;
+  }
 
 /* Forked from Martin's code */
 /* Code Mirror changes */
 div.CodeMirror-linenumber.CodeMirror-gutter-elt {
-    color : #FFFFFF;
-    background-color: #000000;
+    color : #000000;
+    background-color: #9B8F70;
   }
 
-.cm-header {
-  color: #FFFFFF;
-}
-
-.cm-quote {
-    color: #FFFFFF;
-}
-
 .cm-keyword {
-    color: #FFFFFF;
-}
-
-.cm-atom {
-    color: #FFFFFF;
+    color: #55D7B1;
 }
 
 .cm-number {
-    color: #FFFFFF;
-}
-
-.cm-def {
-    color: #FFFFFF;
-}
-
-.cm-variable {
-    color: #FFFFFF;
-}
-
-.cm-variable-2 {
-    color: #FFFFFF;
-}
-
-.cm-variable-3, .cm-type {
-    color: #FFFFFF;
-}
-
-.cm-property {
-    color: #FFFFFF;
-}
-
-.cm-operator {
-    color: #FFFFFF;
+    color: #ECBE68;
 }
 
 .cm-comment {
-    color: #FFFFFF;
+    color: #F3BFBE;
     font-style: italic;
 }
 
 .cm-string {
-    color: #FFFFFF;
-}
-
-.cm-string-2 {
-    color: #FFFFFF;
-}
-
-.cm-meta {
-    color: #FFFFFF;
-}
-
-.cm-qualifier {
-    color: #FFFFFF;
-}
-
-.cm-builtin {
-    color: #FFFFFF;
+    color: #93B6F6;
 }
 
 .cm-bracket {
-    color: #FFFFFF;
+    color: #AB574D;
 }
 
 .CodeMirror-matchingbracket {
-    color: #FFFFFF;
+    color: #AB574D;
 }
 
 .CodeMirror-nonmatchingbracket {
-    color: #FFFFFF;
-}
-
-.cm-tag {
-    color: #FFFFFF;
-}
-
-.cm-attribute {
-    color: #FFFFFF;
+    color: #AB574D;
 }
 
 /* Cursor */
 
 .CodeMirror-cursor {
-    border-left: 1px solid #FFFFFF;
+    border-left: 1px solid rgb(247, 10, 10);
 }
 
 /* End of part taken from Martin's code */
@@ -144,7 +109,7 @@ div.DataTable__data-table___2NG6O {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -153,7 +118,7 @@ div.styles__sql-result___2LXVF {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -162,7 +127,7 @@ div.sql-result-view-tab.tab_n5m2fc-o_O-RESULTS_pog3hg-o_O-active_19mr5mm {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -171,7 +136,7 @@ div.sql-result-view-tab.tab_n5m2fc-o_O-DATA_PREVIEW_1mqc21n {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -180,7 +145,7 @@ img.openHistoryArrow_sj5ub1 {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -189,7 +154,7 @@ span.openHistoryText_pgfqnw {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -198,7 +163,7 @@ div.styles__sql-worksheet-result-header-text-id___20frh {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -207,7 +172,7 @@ div.styles__sql-worksheet-result-header-text___ZNJak {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -216,7 +181,7 @@ span.BarLine__bar-line-title___1jr7R {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -233,7 +198,7 @@ div.TableColumnConfig__dropdownToggle___3p81U {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -242,13 +207,13 @@ div.styles__sql-worksheet-result-header-item___526y8 {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
 input.DataTable__input___jNDIA {
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     opacity: 1.0;
 }
 
@@ -257,7 +222,7 @@ div.fixedDataTableCellLayout_wrap3.public_fixedDataTableCell_wrap3 {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #372E31;
     font-size: 12px;
 }
 
@@ -265,20 +230,20 @@ div.SortableHeaderCell__headerTextLeft___2R5V6 {
     line-height: 1.45em;
     color-profile: sRGB;
     rendering-intent: auto;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: #C36E4F;
+    background-color: #372E31;
     font-size: 15px;
-	font-style: bold;
+    font-weight: bold;
 }
 
 div.SortableHeaderCell__headerTextRight___7-yps {
     line-height: 1.45em;
     color-profile: sRGB;
     rendering-intent: auto;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: #C36E4F;
+    background-color: #372E31;
     font-size: 15px;
-	font-style: bold;
+    font-weight: bold;
 }
 
 div.public_fixedDataTableCell_cellContent {
@@ -286,8 +251,28 @@ div.public_fixedDataTableCell_cellContent {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #372E31;
     font-size: 12px;
+}
+
+div.sql-result-view-tab.tab_n5m2fc-o_O-DATA_PREVIEW_1mqc21n-o_O-active_19mr5mm {
+  color: #FFFFFF;
+}
+
+div.sql-result-view-tab.tab_n5m2fc-o_O-RESULTS_pog3hg {
+  color: #FFFFFF;
+}
+
+div div div {
+    color: #FFFFFF;
+}
+
+div.step-toggle-step {
+  color: #000000;
+}
+
+div.__react_component_tooltip.type-light {
+  background-color: #9B8F70;
 }
 
 /* Color scheme for Metadata */
@@ -297,7 +282,7 @@ input.styles__input-bar___3oEys {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #FFFFFF;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -306,22 +291,22 @@ div.styles__object-tree___1H2pF {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
 div.styles__tree-node-header___3V6cf {
     color : #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
   }
 
   li.styles__tree-node-type-header___3ieIq {
     color : #FFFFFF;
-    background-color : #000000;
+    background-color : #424438;
   }
 
   div.styles__tree-node-header-buttons___3dQ-v {
-    color : #000000;
+    color : #424438;
   }
 
 div.styles__explorer-info___OW7yP {
@@ -329,7 +314,7 @@ div.styles__explorer-info___OW7yP {
     color-profile: sRGB;
     rendering-intent: auto;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
     font-size: 12px;
 }
 
@@ -338,24 +323,44 @@ div.styles__column-content___2qAUS {
   color-profile: sRGB;
   rendering-intent: auto;
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #424438;
   font-size: 12px;
 }
 
 input.styles__input-bar___3oEys {
     color : #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
   }
 
 div.styles__column-name___28x8D {
     color : #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
 }
 
 div.styles__column-type___5tx_K {
     color : #FFFFFF;
-    background-color: #000000;
+    background-color: #424438;
 }
+
+div div img {
+  background-color: #89826D;
+}
+
+div.menu-item_14igu14.menu-item-default_16c4pdc {
+  background-color: #424438;
+}
+
+div.styles__column-header___20jHA {
+  background-color: #424438;
+}
+
+div.styles__search-scope___2TtD0 {
+  background-color: #424438;
+}
+
+div.BarLine__bar-line___3kOKp {
+    background-color: #FFFFFF;
+  }
 
 /* History */
 div.styles__history-header___1mQbl {
@@ -372,3 +377,5 @@ div.styles__history-header___1mQbl {
     color: #FFFFFF;
     background-color: #000000;
   }
+
+

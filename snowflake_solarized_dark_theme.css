@@ -84,8 +84,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
     color: #839496;
     background-color: #002b36;
     text-shadow: #002b36 0 1px;
-    font-size: 18px;
-    font-family: 'Inconsolata','Menlo';
+    font-family: Lucida Console;
 }
 
 .CodeMirror-widget {
@@ -277,4 +276,142 @@ div.CodeMirror-selected {
 
 .CodeMirror-activeline-background {
     background: rgba(255, 255, 255, 0.06);
+}
+
+div.styles__sql-worksheet-header___xP7Xo {
+  background-color: #064a5c;
+
+}
+
+img.styles__sql-worksheet-context-setting-item-icon___EW0y8 {
+  color: #eceff1;
+}
+
+div.styles__sql-worksheet-context-setting-context-info___B0JLM {
+  color: #000000;
+  background-color: #cfd8dc;
+}
+
+label.styles__select-checkbox-label___g7AnG {
+  color: #cfd8dc;
+}
+
+div.style__tab-container___aABAl {
+  background-color: #064a5c;
+
+}
+
+button.styles__snow-button___pe3dK.styles__secondary-btn___IJS8o.styles__snow-button___Skyxu {
+  background-color: #cfd8dc;
+}
+
+div.style__tab___BR23Y {
+  background-color: #002b36;
+  color: #eeeeee;
+
+}
+
+div.x-container.home-view.home-view-next.home-view-next-padding-top.x-box-item.x-container-default.x-box-layout-ct {
+  background-color: #064a5c;
+  color: #212121;
+}
+
+div.styles__tree-node-header___JlFdR {
+  background-color: #064a5c;
+  color: #cfd8dc;
+}
+
+img.styles__tree-node-header-image___TtHSQ {
+  color: #eceff1;
+  background-color: #0ac5f5;
+}
+
+div.styles__column-header___TeqcN {
+  background-color: #002b36;
+  color: #cfd8dc;
+}
+
+div.sql-result-view-header.header_svbvdq {
+  color: #cfd8dc;
+}
+
+div.styles__sql-worksheet-result-header___WrpmT {
+  color: #cfd8dc;
+  background-color: #002b36;
+  border-color: #002b36;
+  border-style: solid;
+}
+
+div.style__control___WWaOg {
+  background-color: #064a5c;
+}
+
+div.style__control-child___KuDMk.style__control-add___tXsVl {
+  color: #cfd8dc;
+
+}
+
+div.fixedDataTableLayout_rowsContainer {
+  background-color: #002b36;
+
+}
+
+div.DataTable__table-config-no-edge___eAdpq {
+  background-color: #002b36;
+}
+
+div.styles__sql-result____Gr_j {
+  background-color: #002b36;
+}
+
+div.public_fixedDataTableCell_cellContent {
+  background-color: #064a5c;
+  color: #cfd8dc;
+}
+
+div div div {
+  color: #cfd8dc;
+}
+
+div.styles__sql-worksheet-context-setting-item-label___UNsFB.styles__roles-label___FZQxl {
+  color: #064a5c;
+}
+
+div.styles__sql-worksheet-context-setting-item-label___UNsFB.styles__warehouse-label___LFYDn {
+  color: #064a5c;
+}
+
+div.styles__sql-worksheet-context-setting-item-label___UNsFB.styles__database-label___BrKYy {
+  color: #064a5c;
+}
+
+div.styles__sql-worksheet-context-setting-item-label___UNsFB.styles__schema-label___XjwSP {
+  color: #064a5c;
+}
+
+div.TableColumnConfig__dropdownToggle___dpFII {
+  background-color: #cfd8dc;
+  color: #002b36;
+}
+
+div.styles__tree-node-header-button___bmwlQ {
+  color: #000000;
+}
+
+input.styles__input-bar____HU0U {
+  color: #212121;
+
+}
+
+div.Pane.vertical.Pane1 {
+  background-color: #002b36;
+
+}
+
+div.style__dropdown-button____MrgK {
+  background-color: #cfd8dc;
+}
+
+div.styles__column-content____uj8T {
+  background-color: #455a64;
 }

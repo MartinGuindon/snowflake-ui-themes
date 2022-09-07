@@ -1,0 +1,333 @@
+/*
+Solarized theme for code-mirror
+http://ethanschoonover.com/solarized
+
+Adapted for the new Snowsight UI to be used in conjunction with Stylebot by Martin Guindon
+
+*/
+
+/*
+Solarized color palette
+http://ethanschoonover.com/solarized/img/solarized-palette.png
+*/
+
+.solarized.base03 {
+    color: #002b36;
+}
+
+.solarized.base02 {
+    color: #073642;
+}
+
+.solarized.base01 {
+    color: #586e75;
+}
+
+.solarized.base00 {
+    color: #657b83;
+}
+
+.solarized.base0 {
+    color: #839496;
+}
+
+.solarized.base1 {
+    color: #93a1a1;
+}
+
+.solarized.base2 {
+    color: #eee8d5;
+}
+
+.solarized.base3 {
+    color: #fdf6e3;
+}
+
+.solarized.solar-yellow {
+    color: #b58900;
+}
+
+.solarized.solar-orange {
+    color: #cb4b16;
+}
+
+.solarized.solar-red {
+    color: #dc322f;
+}
+
+.solarized.solar-magenta {
+    color: #d33682;
+}
+
+.solarized.solar-violet {
+    color: #6c71c4;
+}
+
+.solarized.solar-blue {
+    color: #268bd2;
+}
+
+.solarized.solar-cyan {
+    color: #2aa198;
+}
+
+.solarized.solar-green {
+    color: #859900;
+}
+
+/* Color scheme for code-mirror */
+
+.CodeMirror-scroll {
+    line-height: 1.45em;
+    color-profile: sRGB;
+    rendering-intent: auto;
+    color: #839496;
+    background-color: #002b36;
+    text-shadow: #002b36 0 1px;
+    font-size: 15px;
+    font-family: 'Inconsolata','Menlo';
+}
+
+.CodeMirror-widget {
+    text-shadow: none;
+}
+
+.cm-header {
+    color: #586e75;
+}
+
+.cm-quote {
+    color: #93a1a1;
+}
+
+.cm-keyword {
+    color: #cb4b16;
+}
+
+.cm-atom {
+    color: #d33682;
+}
+
+.cm-number {
+    color: #d33682;
+}
+
+.cm-def {
+    color: #2aa198;
+}
+
+.cm-variable {
+    color: #839496;
+}
+
+.cm-variable-2 {
+    color: #b58900;
+}
+
+.cm-variable-3, .cm-type {
+    color: #6c71c4;
+}
+
+.cm-property {
+    color: #2aa198;
+}
+
+.cm-operator {
+    color: #6c71c4;
+}
+
+.cm-comment {
+    color: #586e75;
+    font-style: italic;
+}
+
+.cm-string {
+    color: #859900;
+}
+
+.cm-string-2 {
+    color: #b58900;
+}
+
+.cm-meta {
+    color: #859900;
+}
+
+.cm-qualifier {
+    color: #b58900;
+}
+
+.cm-builtin {
+    color: #d33682;
+}
+
+.cm-bracket {
+    color: #cb4b16;
+}
+
+.CodeMirror-matchingbracket {
+    color: #859900;
+}
+
+.CodeMirror-nonmatchingbracket {
+    color: #dc322f;
+}
+
+.cm-tag {
+    color: #93a1a1;
+}
+
+.cm-attribute {
+    color: #2aa198;
+}
+
+.cm-hr {
+    color: transparent;
+    border-top: 1px solid #586e75;
+    display: block;
+}
+
+.cm-link {
+    color: #93a1a1;
+    cursor: pointer;
+}
+
+.cm-special {
+    color: #6c71c4;
+}
+
+.cm-em {
+    color: #999;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.cm-error, .cm-invalidchar {
+    color: #586e75;
+    border-bottom: 1px dotted #dc322f;
+}
+
+div.CodeMirror-selected {
+    background: #073642;
+}
+
+.CodeMirror ::selection {
+    background: rgba(7, 54, 66, 0.99);
+}
+
+.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection {
+    background: rgba(7, 54, 66, 0.99);
+}
+
+/* Editor styling */
+
+/* Little shadow on the view-port of the buffer view */
+
+.CodeMirror {
+    -moz-box-shadow: inset 7px 0 12px -6px #000;
+    -webkit-box-shadow: inset 7px 0 12px -6px #000;
+    box-shadow: inset 7px 0 12px -6px #000;
+}
+
+/* Remove gutter border */
+
+.CodeMirror-gutters {
+    background-color: #073642;
+}
+
+/* Gutter colors and line number styling based of color scheme (dark / light) */
+
+/* Dark */
+
+.CodeMirror-linenumber {
+    padding: 0 5px;
+}
+
+/* Common */
+
+.CodeMirror-guttermarker-subtle {
+    color: #586e75;
+}
+
+.CodeMirror-guttermarker {
+    color: #ddd;
+}
+
+.CodeMirror-gutter .CodeMirror-gutter-text {
+    color: #586e75;
+}
+
+/* Cursor */
+
+.CodeMirror-cursor {
+    border-left: 1px solid #819090;
+}
+
+/* Fat cursor */
+
+.cm-fat-cursor .CodeMirror-cursor {
+    background: #586e75;
+}
+
+.cm-animate-fat-cursor {
+    background-color: #586e75;
+}
+
+/* Active line */
+
+.CodeMirror-activeline-background {
+    background: rgba(255, 255, 255, 0.06);
+}
+/* Header & Top */
+header.worksheetHeader.hr.hs.ht.hu.g5.hv.hw.hx.hy.ba.bb.hz.g6.ca {
+   background-color: #123;
+}
+
+div.top-pane.k6.k7.ba.bl.hf.e6 {
+   background-color: #073642
+}
+/* Search Header */
+div.bx.kj.ld.dj.iq.gk.ba.cs.g7.ca.bl {
+     background-color: #11111119;
+}
+
+div.al.am.an.ao.lf.gl.g5.i9.dl.hx.ai.ba.bl.ah.e6 {
+     background-color: #11111119;
+}
+
+div.eb.ea.bv.bw.bu.e8.e9.bt.lg.lh.ba.cr.cs.bl.ct.li.br.lj.bs.lk.bd.ll.bq.kf.lm.ca.ln.lo.lp.lq.lr.de.ah.ai {
+  background-color: ghostwhite;
+}
+
+/* Bottom */
+div.g5.hv.hw.hx.ba.cr.cs.bl.e7.h0.i1.ca {
+     background-color: #11111119;
+}
+
+span.bx.gl.co.b1.h4.ah.ai.cg.ak.f0.f1 {
+  color: #ddd;
+}
+
+div.eb.ea.bv.bw.bu.e8.e9.bt.lg.lh.ba.cr.cs.bl.ct.li.br.lj.bs.lk.bd.ll.bq.kf.lm.ca.ln.lo.lp.lq.lr.de.ah.ai {
+  background-color: ghostwhite;
+}
+
+div.bm.bn.bo.bp.e8.e9.ea.eb.bq.bd.br.bs.f5.b5.en.f6.ej.cz.f7.eg.dl.ia.k8.k9.ka.kb.kc.kd.ke.ib.ic.id.ie.if.ig.ih.ii.ax.bl.kf.ca.cb.cc.b1.ay.fd.ce.cf.cg.ch.ci.cj.ck.ak.kg {
+  background-color:#fff0f6;
+}
+/* Folders Background */
+div.jv.g5.i9.dl.hx.bj.e7 {
+  background-color: #9191;
+}
+
+/* Top Right Buttons */
+div.f3.bc.eo.f4.e8.e9.ea.eb.bq.bd.br.bs.f5.b5.en.f6.ej.cz.f7.eg.eh.f8.c8.f9.ax.bl.fa.ca.fb.fc.b1.ay.fd.ce.fe.cg.ch.ci.cj.ck.ak {
+  background-color: #fff0f6;
+}
+
+div.f3.bc.eo.f4.e8.e9.ea.eb.bq.bd.br.bs.f5.b5.en.f6.bx.cz.f7.eg.eh.f8.c8.f9.ax.bl.fa.ca.fb.fc.b1.ay.fd.ce.fe.cg.ch.ci.cj.ck.ak {
+   background-color:#fff0f6;
+}
+div.is.it.iu.iv.iw.ix.iy.iz.j0.j1.ba.cr.cs.bl.ce.ck.j2.j3.j4.br.j5.bs.j6.bd.j7.bq.ez.ca.j8.j9.ja.bh.cj {
+  
+}
